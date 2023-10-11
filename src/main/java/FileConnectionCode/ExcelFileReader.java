@@ -15,8 +15,7 @@ import org.testng.annotations.Test;
 
 public class ExcelFileReader 
 {	
-
-
+	/*By using below code you can write the Data in excel file*/
 	@Test(priority=1)
 	public void write() throws InvalidFormatException, IOException
 	{
@@ -36,7 +35,7 @@ public class ExcelFileReader
 	    wwk.close();
 
 	}
-	/*By using below code you can read the Data with from excel file and print on the console*/
+	/*By using below code you can read the Data from excel file and print on the console*/
 	@Test(priority=2, enabled=false)
 	public void read() throws InvalidFormatException, IOException
 	{
